@@ -1,12 +1,12 @@
-OmniAuth 7digital
-==============
+# OmniAuth 7digital
+
+[![Dependency Status](https://gemnasium.com/Musikee/omniauth-7digital.svg)](https://gemnasium.com/Musikee/omniauth-7digital)
 
 This gem contains the 7digital strategy for OmniAuth.
 
-For more information about the 7digital api: http://developer.7digital.com/
+For more information about the 7digital api: <http://developer.7digital.com/>
 
-How To Use It
--------------
+## How To Use It
 
 If you are using Rails, you need to add the gem to your `Gemfile`:
 
@@ -22,11 +22,10 @@ Once these are in, you need to add the following to your `config/initializers/om
     	provider :seven_digital, 'consumer_key', 'consumer_secret'
     end
 
-You will obviously have to put in your key and secret, which you can get from https://api-signup.7digital.com/
-
+You will obviously have to put in your key and secret, which you can get from <https://api-signup.7digital.com/>
 
 After you have the gem running and the configuration is done, you can get to the follow url to log the user in:
 
-	http://localhost:3000/auth/seven_digital
+    http://localhost:3000/auth/seven_digital
 
-Now just follow the README at: https://github.com/intridea/omniauth
+Now just follow the README at: <https://github.com/intridea/omniauth>
